@@ -2,5 +2,5 @@
 Automatically formats user input to hexadecimal.
 
 
-Demo: https://jsfiddle.net/theslip/2xyakLqv/10/
+Demo: https://jsfiddle.net/theslip/2xyakLqv/11/
 
