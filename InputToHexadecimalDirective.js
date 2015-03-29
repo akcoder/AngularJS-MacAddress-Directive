@@ -11,7 +11,6 @@ app.directive('toHex', function () {
             }
 
             var hexadecimalFormat = function (value) {
-
                 var numbers = value.replace(/-/gmi, "");
 
                 if (value.length % 3 === 0) {
@@ -23,8 +22,8 @@ app.directive('toHex', function () {
             ctrl.$formatters.push(hexadecimalFormat);
 
             ele.on('input', function () {
-
                 var value = hexadecimalFormat(ele.val());
+				
                 if (value !== undefined) {
                     ctrl.$setViewValue(value);
                     ctrl.$render();
