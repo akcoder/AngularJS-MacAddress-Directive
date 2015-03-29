@@ -17,7 +17,6 @@ app.directive('toHex', function () {
                 if (value.length % 3 === 0) {
                     return numbers.replace(/([0-9A-Za-z]{2})/g, "$1-");
                 }
-
             }
 
             ctrl.$parsers.push(hexadecimalParse);
