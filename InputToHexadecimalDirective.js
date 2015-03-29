@@ -11,7 +11,7 @@ app.directive('toHex', function () {
             }
 
             var hexadecimalFormat = function (value) {
-                var numbers = value.replace(/-/gmi, "");
+                var numbers = value.replace(/-/g, "");
 
                 if (value.length % 3 === 0) {
                     return numbers.replace(/([0-9A-Za-z]{2})/g, "$1-");
