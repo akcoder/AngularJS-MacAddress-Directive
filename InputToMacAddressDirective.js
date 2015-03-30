@@ -1,4 +1,4 @@
-app.directive('toHex', function () {
+app.directive('macAddress', function () {
     return {
         restrict: "A",
         require: "ngModel",
