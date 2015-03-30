@@ -5,7 +5,10 @@ Automatically formats user input to hexadecimal, namely it delimits input every 
 # Demo
 https://jsfiddle.net/theslip/2xyakLqv/15/
 
-# Compatible Versions (tested) 
+# Compatible Versions (tested)
+- v. 1.2.24
+- v. 1.2.25
+- v. 1.2.26
 - v. 1.2.27
 - v. 1.2.1
 - v. 1.3.4
