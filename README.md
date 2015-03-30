@@ -1,5 +1,5 @@
 # AngularJS-MacAddress-Directive
-Automatically formats user input to hexadecimal, namely it delimits input every two characters by hyphen.
+Automatically formats user input into a mac address format, namely it delimits input every two characters by hyphen.
 
 
 # Demo
