@@ -7,10 +7,13 @@ app.directive('toHex', function () {
             if (!ctrl) return;
 
             var hexadecimalParse = function (value) {
-                return value;
+                return value.toUpperCase();
             }
 
             var hexadecimalFormat = function (value) {
+
+                if (!value) return undefined;
+
                 var numbers = value.replace(/-/g, "");
 
                 if (value.length % 3 === 0) {
@@ -23,7 +26,7 @@ app.directive('toHex', function () {
 
             ele.on('input', function () {
                 var value = hexadecimalFormat(ele.val());
-				
+
                 if (value !== undefined) {
                     ctrl.$setViewValue(value);
                     ctrl.$render();
