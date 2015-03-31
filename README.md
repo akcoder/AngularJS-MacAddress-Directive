@@ -3,7 +3,7 @@ Automatically formats user input into a mac address format, namely it delimits i
 
 
 # Demo
-https://jsfiddle.net/theslip/2xyakLqv/19/
+https://jsfiddle.net/2xyakLqv/20/
 
 # Compatible Versions (tested)
 - v. 1.2.24
