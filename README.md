@@ -1,4 +1,4 @@
-# AngularJS-MacAddress-Directive
+# AngularJS Mac Address Directive
 Automatically formats user input into a mac address format, namely it delimits input every two characters by hyphen.
 
 
