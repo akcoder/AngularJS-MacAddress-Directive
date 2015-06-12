@@ -5,7 +5,7 @@ Automatically formats user input into a mac address format, namely it delimits i
 # Demo
 https://jsfiddle.net/2xyakLqv/20/
 
-# Compatible Versions (tested)
+# Compatible Versions
 - v. 1.2.24
 - v. 1.2.25
 - v. 1.2.26
@@ -24,7 +24,7 @@ https://jsfiddle.net/2xyakLqv/20/
 - v. 1.3.14
 - v. 1.3.15
 
-# Incompatible Versions (tested)
+# Incompatible Versions
 - v. 1.3.3
 - v. 1.3.2
 - v. 1.3.1
