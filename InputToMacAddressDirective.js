@@ -4,7 +4,9 @@ app.directive('macAddress', function () {
         require: "ngModel",
         link: function (scope, ele, attr, ctrl) {
 
-            if (!ctrl) return;
+            if (!ctrl) {
+                return;
+            }
 
             var macAddressParse = function (value) {
                 return value.toUpperCase();
